@@ -1,0 +1,1668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logfile ver="2.0">
+<!-- 
+	ExecSolver (2023.11a)
+
+	Copyright (c) since 1983
+	JSOL Corporation.
+	All rights reserved.
+
+	Fri Nov 08 19:20:49.087 2024
+
+	compiled time : Nov 24 2023, 18:51:26
+
+ -->
+<!-- intmax=4294967295 -->
+<!-- argv[0]: C:/Program Files/JMAG-Designer23.0/ExecSolver.exe -->
+<!-- argv[1]: C:/Users/SES/Downloads/210020050.jfiles/210020050_0~4/Static~4/Case1/Designer.jcf -->
+<!-- [Resource Information] machine=GTMSI:1 -->
+<!-- JMAG-Designer=23.0 -->
+<!-- Execute FHI -->
+<!-- reading by FHI -->
+<!-- InputFileName = C:\Users\SES\Downloads\210020050.jfiles\210020050_0~4\Static~4\Case1\Designer.jcf -->
+<!-- jdisp file = C:\Users\SES\Downloads\210020050.jfiles\210020050_0~4\Static~4\Case1\Designer.disp -->
+<!-- m_IsPreExecuteJMorph = 0 -->
+<!-- IsExistCondition(CutPlaneAnalysis) = false -->
+<!-- argv[0]: C:/Program Files/JMAG-Designer23.0/ExecSolver.exe -->
+<!-- argv[1]: C:/Users/SES/Downloads/210020050.jfiles/210020050_0~4/Static~4/Case1/Designer.jcf -->
+<!-- InsDir=C:/Program Files/JMAG-Designer23.0 -->
+<!-- m_WorkingDir=C:/Users/SES/Downloads/210020050.jfiles/210020050_0~4/Static~4/Case1 -->
+<!-- m_SolType=0 -->
+<!-- m_Ironloss=0 -->
+<!-- m_Patch=0 -->
+<!-- m_Adap=0 -->
+<!-- m_AdapItr=1 -->
+<!-- m_AdapRemeshItr=2 -->
+<!-- m_AdapEps=2.000000e-01 -->
+<!-- m_Mtot=65011712 -->
+<!-- gInputFile=C:\Users\SES\Downloads\210020050.jfiles\210020050_0~4\Static~4\Case1\Designer -->
+<!-- gInputFile2= -->
+<!-- gInputFileWithExtension=C:\Users\SES\Downloads\210020050.jfiles\210020050_0~4\Static~4\Case1\Designer.jcf -->
+<!-- gOutputFileWithExtension= -->
+<!-- gMapStressFile= -->
+<!-- gIronLossFile= -->
+<!-- gExecutionMode=run -->
+<!-- gRenamedPlotFileName= -->
+<!-- gCopyDstDirInfo= -->
+<!-- gCalcGridFile= -->
+<!-- gIsBinaryPlot=1 -->
+<!-- gNoUseExecTask=0 -->
+<!-- gProcessLock=1 -->
+<!-- gPlotExt=.jplot -->
+<!-- m_SaveCheck=0 -->
+<!-- m_Restart=0 -->
+<!-- m_RestartType=0 -->
+<!-- m_RestartFileCopy=0 -->
+<!-- m_Solid=0 -->
+<!-- m_MG2D=0 -->
+<!-- m_MultiSlide=0 -->
+<!-- m_PostRename=1 -->
+<!-- m_MakeAir=1 -->
+<!-- m_CheckMode=0 -->
+<!-- m_PostRenameMode=1 -->
+<!-- m_ExecMode=1 (YES:1,NO:0) -->
+<!-- m_MesherCheck=0 -->
+<!-- m_MapStress=0 -->
+<!-- m_MapInitialStress=0 -->
+<!-- m_MapDisplacement=0 -->
+<!-- m_MapTemperature=0 -->
+<!-- m_flg_circuit_conversion=1 -->
+<!-- m_NumElem=52131 -->
+<!-- m_IsExistTetra=1 -->
+<!-- m_FileFormatType=0(JCF:0,OTHER:1) -->
+<!-- m_IsRT=0 -->
+<!-- m_ExecTask=0 -->
+<!-- m_IsCoupledHeat=0 -->
+<!-- gJmagProduct.m_Product=2 -->
+<!-- gJmagProduct.m_Version=23.0 -->
+<!-- isKeepJstage1=0 -->
+<!-- m_flg_exclusive_rt=0 -->
+<!-- m_flg_execute_postprocess=0 -->
+<!-- m_flg_execute_jplotcalculator=0 -->
+<!-- m_DeleteResultFilesAfterCsvOutput=0 -->
+<!-- m_element_order=1 -->
+<!-- m_TableResultsOnly=0 -->
+<!-- m_IoSaveFile=1 -->
+<!-- m_IsGroupedJobCalculation=0 -->
+<!-- m_MachineFile= -->
+<!-- m_RSHCommand= -->
+<message>
+	<code>120003</code>
+	<status>Message</status>
+	<module>ExecSolver</module>
+	<version>2023.11a</version>
+	<category>report mode</category>
+	<text>Execution Date</text>
+	<data key="EXECDATE">2024/11/08 19:20</data>
+</message>
+<message>
+	<code>120004</code>
+	<status>Message</status>
+	<module>ExecSolver</module>
+	<version>2023.11a</version>
+	<category>report mode</category>
+	<text>Execution Directory</text>
+	<data key="EXECDIR">C:\Users\SES\Downloads\210020050.jfiles\210020050_0~4\Static~4\Case1\</data>
+</message>
+<message>
+	<code>120005</code>
+	<status>Message</status>
+	<module>ExecSolver</module>
+	<version>2023.11a</version>
+	<category>report mode</category>
+	<text>Input Filename</text>
+	<data key="IN_FILENAME">Designer.jcf</data>
+</message>
+<message>
+	<code>120010</code>
+	<status>Message</status>
+	<module>ExecSolver</module>
+	<version>2023.11a</version>
+	<category>report mode</category>
+	<text>Title</text>
+	<data key="EXEC_FILENAME">Designer</data>
+</message>
+<message>
+	<code>120006</code>
+	<status>Message</status>
+	<module>ExecSolver</module>
+	<version>2023.11a</version>
+	<category>report mode</category>
+	<text>Size of Input File</text>
+	<data key="IN_FILE_SIZE">1067</data>
+</message>
+<message>
+	<code>120080</code>
+	<status>Message</status>
+	<module>ExecSolver</module>
+	<version>2023.11a</version>
+	<category>report mode</category>
+	<text>JMAG-Designer Version Number</text>
+	<data key="PREPOST_VERSION">JMAG-Designer(x64) 23.0.01zv
+</data>
+</message>
+<data key="ADAPTIVE_STAGE">-</data>
+<!-- ExecNormal -->
+<!-- new slice file name = C:/Users/SES/Downloads/210020050.jfiles/210020050_0~4/Static~4/Case1\jplot_slice_1 -->
+<!-- old slice file name = C:\Users\SES\Downloads\210020050.jfiles\210020050_0~4\Static~4\Case1\Designer_slice_1.jplot -->
+<!-- [Fri Nov 08 19:20:49.142 2024] TimeStamp: Kicking jam from ExecSolver -->
+<!-- "C:/Program Files/JMAG-Designer23.0\jam.exe"  -->
+
+	Finish Time: Fri Nov 08 19:20:49.142 2024
+
+          
+         ver="2.0">
+<!-- Solver file is jinput.jcf -->
+<!-- [fsopen] -->
+<message>
+	<code>29015</code>
+	<status>Message</status>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>jam.exe</text>
+	<data key="VERSION">23.0.4m_S</data>
+</message>
+<!-- Solver file is jinput.jcf -->
+<!-- LicenseControl Check Out -->
+<!-- Checkout: 1 JW_MAG_ST -->
+<!-- iccg_type =1 -->
+<!-- NULL!!! -->
+<!-- Solver file is jinput.jcf -->
+<!--     Max Used Memory:     0.000[MByte] -->
+<!--     Max Used Memory:     0.000[MByte] -->
+<!--     Max Used Memory:     0.001[MByte] -->
+<!--     Max Used Memory:     0.001[MByte] -->
+<!--     Max Used Memory:     0.471[MByte] -->
+<!--     Max Used Memory:     3.390[MByte] -->
+<!--     Max Used Memory:     6.402[MByte] -->
+<!--     Max Used Memory:     7.029[MByte] -->
+<!--     Max Used Memory:     7.031[MByte] -->
+<!--     Max Used Memory:     7.032[MByte] -->
+<!--     Max Used Memory:     9.353[MByte] -->
+<!--     Max Used Memory:    10.433[MByte] -->
+<!--     Max Used Memory:    10.542[MByte] -->
+<!-- restart_type is [0] -->
+<!-- solver_type [0] -->
+<!-- force_file [0] On(1)/Off(0) -->
+<!--     Max Used Memory:    10.542[MByte] -->
+<!--     Max Used Memory:    12.719[MByte] -->
+<!--     Max Used Memory:    12.758[MByte] -->
+<!--     Max Used Memory:    12.797[MByte] -->
+<!--     Max Used Memory:    12.836[MByte] -->
+<!--     Max Used Memory:    13.214[MByte] -->
+<!--     Max Used Memory:    13.631[MByte] -->
+<table row="1" col="1">
+	<code>290500</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%SETTINGS%</text>
+</table>
+<table row="1" col="2">
+	<code>290500</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%ELEMENT_NAMES%</text>
+</table>
+<table row="2" col="1">
+	<code>290500</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%NO_CONVERSION%</text>
+</table>
+<table row="2" col="2">
+	<code>290500</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%APPLIED_TO_ALL%</text>
+</table>
+<table row="3" col="1">
+	<code>290500</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%TERMINAL_VOLTAGE%: OFF, %FACTOR_IS%: 1.000000</text>
+</table>
+<table row="3" col="2">
+	<code>290500</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%APPLIED_TO_ALL%</text>
+</table>
+<table row="4" col="1">
+	<code>290500</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%LINEELEMENT_CURRENT%: OFF, %FACTOR_IS%: 1.000000</text>
+</table>
+<table row="4" col="2">
+	<code>290500</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%APPLIED_TO_ALL%</text>
+</table>
+<!-- JMAG_FEMCOIL_CALC_TYPE 0 -->
+<!--     Max Used Memory:    15.717[MByte] -->
+<!--     Max Used Memory:    16.134[MByte] -->
+<!--     Max Used Memory:    16.173[MByte] -->
+<!-- [get_global_memory] total memory 16085.000000 [Mbyte] -->
+<!-- [get_global_memory] avail memory 4997.000000 [Mbyte] -->
+<!-- [get_global_memory] used  memory 11088.000000 [Mbyte] -->
+<!-- [get_global_memory] total memory 16085.000000 [Mbyte] -->
+<!-- [get_global_memory] avail memory 4997.000000 [Mbyte] -->
+<!-- [get_global_memory] used  memory 11088.000000 [Mbyte] -->
+<!--   Max Used Memory (long):     0.353[MByte] -->
+<!--     Max Used Memory:    16.186[MByte] -->
+<!--     Max Used Memory:    16.217[MByte] -->
+<!--     Max Used Memory:    16.471[MByte] -->
+<!--     Max Used Memory:    17.723[MByte] -->
+<!--   Max Used Memory (long):     1.604[MByte] -->
+<!--     Max Used Memory:    17.762[MByte] -->
+<!--     Max Used Memory:    17.801[MByte] -->
+<!--     Max Used Memory:    17.879[MByte] -->
+<!--     Max Used Memory:    18.009[MByte] -->
+<!--     Max Used Memory:    18.218[MByte] -->
+<!--     Max Used Memory:    18.974[MByte] -->
+<!--     Max Used Memory:    20.225[MByte] -->
+<!--     Max Used Memory:    20.264[MByte] -->
+<!--     Max Used Memory:    20.473[MByte] -->
+<!--     Max Used Memory:    21.467[MByte] -->
+<!--     Max Used Memory:    24.297[MByte] -->
+<!--     Max Used Memory:    24.297[MByte] -->
+<!--     Max Used Memory:    24.297[MByte] -->
+<!--     Max Used Memory:    24.714[MByte] -->
+<table row="1" col="1">
+	<code>29000</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>2</text>
+</table>
+<table row="1" col="2">
+	<code>29000</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text><![CDATA[Core@Mn-Zn_ferrite_5000@Core@0]]></text>
+</table>
+<table row="1" col="3">
+	<code>29000</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text><![CDATA[%ISOSTEEL%<br>Ferrite/Mn-Zn/Mn-Zn_ferrite_5000.hb<br> ]]></text>
+</table>
+<table row="2" col="1">
+	<code>29000</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>1</text>
+</table>
+<table row="2" col="2">
+	<code>29000</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text><![CDATA[Core 2@Mn-Zn_ferrite_5000@Core@0]]></text>
+</table>
+<table row="2" col="3">
+	<code>29000</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text><![CDATA[%ISOSTEEL%<br>Ferrite/Mn-Zn/Mn-Zn_ferrite_5000.hb<br> ]]></text>
+</table>
+<table row="3" col="1">
+	<code>29000</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>3</text>
+</table>
+<table row="3" col="2">
+	<code>29000</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text><![CDATA[Bobbin<1>@Air]]></text>
+</table>
+<table row="3" col="3">
+	<code>29000</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%AIR%</text>
+</table>
+<table row="4" col="1">
+	<code>29000</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>4</text>
+</table>
+<table row="4" col="2">
+	<code>29000</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text><![CDATA[Coil<1> - P1@Copper]]></text>
+</table>
+<table row="4" col="3">
+	<code>29000</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text><![CDATA[%NONMAGNETIC%<br>%Linear_M% (1.000000)<br> ]]></text>
+</table>
+<table row="5" col="1">
+	<code>29000</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>5</text>
+</table>
+<table row="5" col="2">
+	<code>29000</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text><![CDATA[]]></text>
+</table>
+<table row="5" col="3">
+	<code>29000</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%AIR%</text>
+</table>
+<table row="1" col="1">
+	<code>29002</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>normal mode</category>
+	<text>%ANALYSIS_CONTROL%</text>
+</table>
+<table row="1" col="2">
+	<code>29002</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>normal mode</category>
+	<text>1</text>
+</table>
+<table row="1" col="3">
+	<code>29002</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>normal mode</category>
+	<text>-</text>
+</table>
+<table row="2" col="1">
+	<code>29002</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>normal mode</category>
+	<text>%STEP%</text>
+</table>
+<table row="2" col="2">
+	<code>29002</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>normal mode</category>
+	<text>1</text>
+</table>
+<table row="2" col="3">
+	<code>29002</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>normal mode</category>
+	<text>%NUMBER_OF_STEP% 1</text>
+</table>
+<table row="3" col="1">
+	<code>29002</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>normal mode</category>
+	<text>%SYMMETRY_BOUNDARY3D%</text>
+</table>
+<table row="3" col="2">
+	<code>29002</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>normal mode</category>
+	<text>1</text>
+</table>
+<table row="3" col="3">
+	<code>29002</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>normal mode</category>
+	<text>-</text>
+</table>
+<table row="4" col="1">
+	<code>29002</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>normal mode</category>
+	<text>%CURRENT%</text>
+</table>
+<table row="4" col="2">
+	<code>29002</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>normal mode</category>
+	<text>1</text>
+</table>
+<table row="4" col="3">
+	<code>29002</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>normal mode</category>
+	<text>-</text>
+</table>
+<table row="1" col="1">
+	<code>29013</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>normal mode</category>
+	<text>%DIODE%</text>
+</table>
+<table row="1" col="2">
+	<code>29013</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>normal mode</category>
+	<text>%NO%</text>
+</table>
+<!--     Max Used Memory:    25.711[MByte] -->
+<!--     Max Used Memory:    28.789[MByte] -->
+<!--     Max Used Memory:    30.769[MByte] -->
+<!--     Max Used Memory:    37.540[MByte] -->
+<!--   Max Used Memory (long):     9.525[MByte] -->
+<!--     Max Used Memory:    37.748[MByte] -->
+<!--     Max Used Memory:    37.794[MByte] -->
+<!--     Max Used Memory:    38.945[MByte] -->
+<!-- number of equation = 58552 -->
+<!-- number of matrix entry = 495066 -->
+<!-- solve matrix done -->
+<!-- solve matrix done -->
+<!-- solve matrix done -->
+<!-- solve matrix done -->
+<table row="-1" col="1">
+	<code>29004</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>normal mode</category>
+	<text>%ADAPTIVE_STAGE%</text>
+</table>
+<table row="-1" col="2">
+	<code>29004</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>normal mode</category>
+	<text>1</text>
+</table>
+<table row="-1" col="3">
+	<code>29004</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>normal mode</category>
+	<text>Yes : 4</text>
+</table>
+<table row="-1" col="4">
+	<code>29004</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>normal mode</category>
+	<text>Yes : 176</text>
+</table>
+<table row="-1" col="5">
+	<code>29004</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>normal mode</category>
+	<text> 1.100</text>
+</table>
+<!-- Size of monitoring results:3984 -->
+<!-- [prntxt] Maximum Memory= 123.204 Mbyte -->
+<!-- [prntxt] Used    Memory= 37.141 Mbyte -->
+<table row="-1" col="1">
+	<code>29006</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%ADAPTIVE_STAGE%</text>
+</table>
+<table row="-1" col="2">
+	<code>29006</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text><![CDATA[ 123.2 [Mbyte]]]></text>
+</table>
+<message>
+	<code>29005</code>
+	<status>Message</status>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>Calculation Time</text>
+	<data key="TIME">2.000 %SEC%</data>
+</message>
+<table row="2" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%ANALYSIS_TYPE%</text>
+</table>
+<table row="2" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%ST3D%</text>
+</table>
+<table row="3" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%FULL_MODEL_CONVERT%</text>
+</table>
+<table row="3" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text><![CDATA[%CONVERT%<br>%CONVERSION_FACTOR_CYC% : 1.000000<br>%CONVERSION_FACTOR% : 2.000000<br>]]></text>
+</table>
+<table row="4" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%ANALYSIS_METHOD%</text>
+</table>
+<table row="4" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>FEM</text>
+</table>
+<table row="5" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%ICCG_PARAMETER%</text>
+</table>
+<table row="5" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text><![CDATA[%ACCEL% : %AUTOMATIC%<br>%MAXPCG% : 5000<br>%DIVERGENCE_EPS% :  1.000e+20<br> ]]></text>
+</table>
+<table row="6" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%NON_LINEAR_TYPE%</text>
+</table>
+<table row="6" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%NewtonRaphson%</text>
+</table>
+<table row="7" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%NON_LINEAR_PARAMETER%</text>
+</table>
+<table row="7" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text><![CDATA[%RELAX% : %RELAX% 2 %USE%<br>%MAXITR% : 15<br>%EPSLIN% : 1.000e-03<br> ]]></text>
+</table>
+<table row="8" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%ICCG_CONTROL%</text>
+</table>
+<table row="8" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text><![CDATA[%ICCG_BEST% : %ON%<br>%ICCG_RESTART% : %OFF%<br> ]]></text>
+</table>
+<table row="9" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%NON_LINEAR_SPEED%</text>
+</table>
+<table row="9" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OFF%</text>
+</table>
+<table row="10" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%EPSPCG_TYPE%</text>
+</table>
+<table row="10" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text><![CDATA[%EPSPCG_CONSTANT%<br>%EPSPCG% : 1.000e-08]]></text>
+</table>
+<table row="11" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%NON_LINEAR_STRICT%</text>
+</table>
+<table row="11" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OFF%</text>
+</table>
+<table row="12" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%PARALLEL_TYPE%</text>
+</table>
+<table row="12" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%SINGLE%</text>
+</table>
+<table row="13" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%DISP_CURRENT%</text>
+</table>
+<table row="13" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OFF%</text>
+</table>
+<table row="14" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%PSEUDO_STEADY%</text>
+</table>
+<table row="14" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OFF%</text>
+</table>
+<table row="15" col="1">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%FORCE_CORRECTION%</text>
+</table>
+<table row="15" col="2">
+	<code>29007</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OFF%</text>
+</table>
+<table row="2" col="1">
+	<code>29017</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%MODEL_SIZE%</text>
+</table>
+<table row="2" col="2">
+	<code>29017</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text><![CDATA[ 6.225e+01 x  1.245e+02 x  1.245e+02]]></text>
+</table>
+<table row="3" col="1">
+	<code>29017</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%UNIT%</text>
+</table>
+<table row="3" col="2">
+	<code>29017</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>mm</text>
+</table>
+<table row="-1" col="1">
+	<code>29018</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%ADAPTIVE_STAGE%</text>
+</table>
+<table row="-1" col="2">
+	<code>29018</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text><![CDATA[%NUM_ELEMENTS% : 52131<br>%NUM_NODES% : 9796]]></text>
+</table>
+<table row="2" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUTPUT_ITEM%</text>
+</table>
+<table row="2" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%ITEM%</text>
+</table>
+<table row="2" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUTPUT%</text>
+</table>
+<table row="3" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%STEP_DATA%</text>
+</table>
+<table row="3" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_STORED_ENERGY%</text>
+</table>
+<table row="3" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_YES%</text>
+</table>
+<table row="4" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_ELEMENT_DATA%</text>
+</table>
+<table row="4" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_MAGNETIC_FLUX_DENSITY%</text>
+</table>
+<table row="4" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="5" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="5" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_MAGNETIZATION%</text>
+</table>
+<table row="5" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_YES%</text>
+</table>
+<table row="6" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="6" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_CURRENT_DENSITY%</text>
+</table>
+<table row="6" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_YES%</text>
+</table>
+<table row="7" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="7" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_BEAM_CURRENT%</text>
+</table>
+<table row="7" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_YES%</text>
+</table>
+<table row="8" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="8" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_DEMAGNETIZING%</text>
+</table>
+<table row="8" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="9" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="9" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_JOULE_LOSS%</text>
+</table>
+<table row="9" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="10" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="10" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_SURFACE_FORCE%</text>
+</table>
+<table row="10" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_YES%</text>
+</table>
+<table row="11" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="11" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_LORENTZ%</text>
+</table>
+<table row="11" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="12" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="12" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_ELECTRIC_FIELD%</text>
+</table>
+<table row="12" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_YES%</text>
+</table>
+<table row="13" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="13" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_RELATIVE_PERMEABILITY%</text>
+</table>
+<table row="13" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="14" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="14" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_DIFF_PERMEABILITY%</text>
+</table>
+<table row="14" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="15" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="15" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_VECTOR_POTENTIAL%</text>
+</table>
+<table row="15" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_YES%</text>
+</table>
+<table row="16" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="16" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_STRESS%</text>
+</table>
+<table row="16" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_YES%</text>
+</table>
+<table row="17" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_NODE_DATA%</text>
+</table>
+<table row="17" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_DISPLACEMENT%</text>
+</table>
+<table row="17" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_YES%</text>
+</table>
+<table row="18" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="18" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_NODAL_FORCE%</text>
+</table>
+<table row="18" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="19" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUTPUT_FILE%</text>
+</table>
+<table row="19" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_SAVE_FILE%</text>
+</table>
+<table row="19" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_YES%</text>
+</table>
+<table row="20" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="20" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_CONVERGENCE_STATE%</text>
+</table>
+<table row="20" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_NO%</text>
+</table>
+<table row="21" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="21" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_CG_MONITOR_FILE%</text>
+</table>
+<table row="21" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%OUT_YES%</text>
+</table>
+<table row="22" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%CONTROL_FILE_SIZE%</text>
+</table>
+<table row="22" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%DIVISION_FILE%</text>
+</table>
+<table row="22" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>1000</text>
+</table>
+<table row="23" col="1">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%CONTROL_OUTPUT_INTERVAL%</text>
+</table>
+<table row="23" col="2">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%NO_CONTROL%</text>
+</table>
+<table row="23" col="3">
+	<code>29008</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>-</text>
+</table>
+<table row="1" col="1">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%CURRENT_DENSITY%</text>
+</table>
+<table row="1" col="2">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text> 7.869e+06</text>
+</table>
+<table row="1" col="3">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text> 0.000e+00</text>
+</table>
+<table row="2" col="1">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%MAGNETIZATION%</text>
+</table>
+<table row="2" col="2">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text> 2.773e+05</text>
+</table>
+<table row="2" col="3">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text> 0.000e+00</text>
+</table>
+<table row="3" col="1">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%MAGNETIC_FIELD%</text>
+</table>
+<table row="3" col="2">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>-1.000e+30</text>
+</table>
+<table row="3" col="3">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text> 1.000e+30</text>
+</table>
+<table row="4" col="1">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%HYSTERESIS_LOSS%</text>
+</table>
+<table row="4" col="2">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text> 0.000e+00</text>
+</table>
+<table row="4" col="3">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text> 0.000e+00</text>
+</table>
+<table row="5" col="1">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%STRESS3%</text>
+</table>
+<table row="5" col="2">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>-1.000e+30</text>
+</table>
+<table row="5" col="3">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text> 1.000e+30</text>
+</table>
+<table row="6" col="1">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%JOULE_LOSS_STEP%</text>
+</table>
+<table row="6" col="2">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text> 2.015e+00</text>
+</table>
+<table row="6" col="3">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text> 0.000e+00</text>
+</table>
+<table row="7" col="1">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%HYSTERESIS_LOSS_STEP%</text>
+</table>
+<table row="7" col="2">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text> 0.000e+00</text>
+</table>
+<table row="7" col="3">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text> 0.000e+00</text>
+</table>
+<table row="8" col="1">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%IRON_LOSS_STEP%</text>
+</table>
+<table row="8" col="2">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text> 0.000e+00</text>
+</table>
+<table row="8" col="3">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text> 0.000e+00</text>
+</table>
+<table row="9" col="1">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%STORED_ENERGY_STEP%</text>
+</table>
+<table row="9" col="2">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>-1.000e+30</text>
+</table>
+<table row="9" col="3">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text> 1.000e+30</text>
+</table>
+<table row="10" col="1">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%PERMEANCE_FACTOR%</text>
+</table>
+<table row="10" col="2">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text> 0.000e+00</text>
+</table>
+<table row="10" col="3">
+	<code>29001</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text> 0.000e+00</text>
+</table>
+<table row="1" col="1">
+	<code>29003</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%JOULE_LOSS_STEP%</text>
+</table>
+<table row="1" col="2">
+	<code>29003</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>ON</text>
+</table>
+<table row="1" col="3">
+	<code>29003</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>2.000000</text>
+</table>
+<table row="2" col="1">
+	<code>29003</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%IRON_LOSS_STEP%</text>
+</table>
+<table row="2" col="2">
+	<code>29003</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>ON</text>
+</table>
+<table row="2" col="3">
+	<code>29003</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>2.000000</text>
+</table>
+<table row="3" col="1">
+	<code>29003</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%STORED_ENERGY_STEP%</text>
+</table>
+<table row="3" col="2">
+	<code>29003</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>ON</text>
+</table>
+<table row="3" col="3">
+	<code>29003</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>2.000000</text>
+</table>
+<table row="4" col="1">
+	<code>29003</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%FLUX_STEP%</text>
+</table>
+<table row="4" col="2">
+	<code>29003</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>OFF</text>
+</table>
+<table row="4" col="3">
+	<code>29003</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>1.000000</text>
+</table>
+<table row="5" col="1">
+	<code>29003</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%FLUX_CURRENT_STEP%</text>
+</table>
+<table row="5" col="2">
+	<code>29003</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>ON</text>
+</table>
+<table row="5" col="3">
+	<code>29003</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>2.000000</text>
+</table>
+<table row="6" col="1">
+	<code>29003</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>%CURRENT_CURRENT_COND_STEP%</text>
+</table>
+<table row="6" col="2">
+	<code>29003</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>OFF</text>
+</table>
+<table row="6" col="3">
+	<code>29003</code>
+	<module>mag</module>
+	<version>23.0.4m_S</version>
+	<category>report mode</category>
+	<text>1.000000</text>
+</table>
+<!-- Performing TidyUps. -->
+<!-- LicenseControl Check In -->
+<!-- Called TLicenseControl::CheckInAll for LicenseControl Check In -->
+<!-- TidyUp Finished. -->
+
+	Finish Time: Fri Nov 08 19:20:51.815 2024
+
+          
+         ver="2.0">
+<!-- 
+	ExecSolver (2023.11a)
+
+	Copyright (c) since 1983
+	JSOL Corporation.
+	All rights reserved.
+
+	Fri Nov 08 19:20:51.827 2024
+
+	compiled time : Nov 24 2023, 18:51:26
+
+ -->
+<!-- [Fri Nov 08 19:20:51.827 2024] TimeStamp: Execution of jam from ExecSolver finished -->
+<!-- ExecuteSystem return = 0 -->
+<!-- Old filename is C:/Users/SES/Downloads/210020050.jfiles/210020050_0~4/Static~4/Case1\jplot -->
+<!-- New filename is C:\Users\SES\Downloads\210020050.jfiles\210020050_0~4\Static~4\Case1\Designer.jplot -->
+<!-- New file size = 3520 kByte -->
+<!-- Old filename is C:/Users/SES/Downloads/210020050.jfiles/210020050_0~4/Static~4/Case1\jcheck -->
+<!-- New filename is C:\Users\SES\Downloads\210020050.jfiles\210020050_0~4\Static~4\Case1\Designer.check -->
+<!-- Old filename is C:/Users/SES/Downloads/210020050.jfiles/210020050_0~4/Static~4/Case1\jsave -->
+<!-- New filename is C:\Users\SES\Downloads\210020050.jfiles\210020050_0~4\Static~4\Case1\Designer.sav -->
+<!-- ReleaseKeepedLicenseForSolverAfterMG -->
+<!-- isKeepLicenseForSolverAfterMG = false -->
+<message>
+	<code>120011</code>
+	<status>Message</status>
+	<module>ExecSolver</module>
+	<version>2023.11a</version>
+	<category>report mode</category>
+	<text>jam.exe version</text>
+	<data key="JAM_VERSION">23.0.4m_S</data>
+</message>
+<message>
+	<code>120007</code>
+	<status>Message</status>
+	<module>ExecSolver</module>
+	<version>2023.11a</version>
+	<category>report mode</category>
+	<text>Output Filename</text>
+	<data key="OUT_FILENAME">Designer.jplot</data>
+</message>
+<message>
+	<code>120008</code>
+	<status>Message</status>
+	<module>ExecSolver</module>
+	<version>2023.11a</version>
+	<category>report mode</category>
+	<text>Size of Output File</text>
+	<data key="OUT_FILE_SIZE">3520</data>
+</message>
+<message>
+	<code>120009</code>
+	<status>Message</status>
+	<module>ExecSolver</module>
+	<version>2023.11a</version>
+	<category>report mode</category>
+	<text>Analysis Time</text>
+	<data key="ANALYSIS_TIME">0days 00hours 00min 02sec</data>
+</message>
+<!-- rename again for error -->
+<!-- jplot file [C:\Users\SES\Downloads\210020050.jfiles\210020050_0~4\Static~4\Case1\Designer.jplot] is optimized. -->
+
+	Finish Time: Fri Nov 08 19:20:51.859 2024
+
+</logfile>

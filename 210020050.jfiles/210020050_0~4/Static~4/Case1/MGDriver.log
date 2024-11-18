@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logfile ver="2.0">
+<!-- 
+	MGdriver (2023.11b)
+
+	Copyright (c) since 1983
+	JSOL Corporation.
+	All rights reserved.
+
+	Fri Nov 08 19:13:48.071 2024
+
+	Compiled time : Nov 10 2023 20:32:35
+ -->
+<!-- 19:13:48 (2024.11. 8) ... MGdriver start date -->
+<!-- work_dir = C:/Users/SES/Downloads/210020050.jfiles/210020050_0~4/Static~4/Case1 -->
+<!-- Argument: -->
+<!-- argv[0]=C:/Program Files/JMAG-Designer23.0/MGdriver.exe -->
+<!-- argv[1]=-solidmeshing -->
+<!-- argv[2]=1 -->
+<!-- FileType=JCF -->
+
+	Finish Time: Fri Nov 08 19:13:48.073 2024
+
+          
+                   
+<!-- 
+	PreSolid (230.2023.11a)
+
+	Copyright (c) since 1983
+	JSOL Corporation.
+	All rights reserved.
+
+	Fri Nov 08 19:13:47.026 2024
+
+	compiled time : Nov 17 2023 10:24:46
+ -->
+<!-- 8 19:13:47 start element to solid process -->
+<!-- 8 19:13:47 end element to solid process -->
+
+	Finish Time: Fri Nov 08 19:13:47.029 2024
+
+          
+                   
+<!-- 
+	PreSolid (230.2023.11a)
+
+	Copyright (c) since 1983
+	JSOL Corporation.
+	All rights reserved.
+
+	Fri Nov 08 19:13:47.035 2024
+
+	compiled time : Nov 17 2023 10:24:46
+ -->
+<!-- The number of cores on this PC : 6 -->
+<!-- Hyper-Threading is enabled on this PC -->
+<!-- The number of logical cores on this PC : 12 -->
+<!-- The number of using cores : 6 -->
+<!-- number of part : 4 -->
+<!-- number of shell: 0 -->
+<!-- number of beam : 0 -->
+<!-- model_length   : 6.499310e+01 -->
+<!-- part id   : LUMP=   2 DESIGNER_BODY=    2 volume=6.6649e+03 -->
+<!--  face id  : FACE=   1 DESIGNER_FACE=    1   area=3.8243e+02 type=plane -->
+<!--  face id  : FACE=   2 DESIGNER_FACE=    2   area=4.0497e+02 type=plane -->
+<!--  face id  : FACE=   3 DESIGNER_FACE=    3   area=3.2058e+02 type=plane -->
+<!--  face id  : FACE=   4 DESIGNER_FACE=    4   area=1.0952e+02 type=plane -->
+<!--  face id  : FACE=   5 DESIGNER_FACE=    5   area=4.1185e+02 type=cylinder -->
+<!--  face id  : FACE=   6 DESIGNER_FACE=    6   area=1.8079e+02 type=plane -->
+<!--  face id  : FACE=   7 DESIGNER_FACE=    7   area=3.0730e+02 type=cylinder -->
+<!--  face id  : FACE=   8 DESIGNER_FACE=    8   area=3.2058e+02 type=plane -->
+<!--  face id  : FACE=   9 DESIGNER_FACE=    9   area=1.1467e+02 type=plane -->
+<!--  face id  : FACE=  10 DESIGNER_FACE=   10   area=4.1583e+02 type=plane -->
+<!-- part id   : LUMP=   1 DESIGNER_BODY=    1 volume=6.8839e+03 -->
+<!--  face id  : FACE=  11 DESIGNER_FACE=   11   area=4.1583e+02 type=plane -->
+<!--  face id  : FACE=  12 DESIGNER_FACE=   12   area=3.2058e+02 type=plane -->
+<!--  face id  : FACE=  13 DESIGNER_FACE=   13   area=4.0497e+02 type=plane -->
+<!--  face id  : FACE=  14 DESIGNER_FACE=   14   area=3.2058e+02 type=plane -->
+<!--  face id  : FACE=  15 DESIGNER_FACE=   15   area=4.6431e+02 type=cylinder -->
+<!--  face id  : FACE=  16 DESIGNER_FACE=   16   area=1.0952e+02 type=plane -->
+<!--  face id  : FACE=  17 DESIGNER_FACE=   17   area=1.8079e+02 type=plane -->
+<!--  face id  : FACE=  18 DESIGNER_FACE=   18   area=3.0730e+02 type=cylinder -->
+<!--  face id  : FACE=  19 DESIGNER_FACE=   19   area=1.1467e+02 type=plane -->
+<!--  face id  : FACE=  20 DESIGNER_FACE=   20   area=4.1583e+02 type=plane -->
+<!-- part id   : LUMP=   3 DESIGNER_BODY=    3 volume=7.6655e+02 -->
+<!--  face id  : FACE=  21 DESIGNER_FACE=   21   area=2.4000e+01 type=plane -->
+<!--  face id  : FACE=  22 DESIGNER_FACE=   22   area=2.4000e+01 type=plane -->
+<!--  face id  : FACE=  23 DESIGNER_FACE=   23   area=8.7650e+02 type=cylinder -->
+<!--  face id  : FACE=  24 DESIGNER_FACE=   24   area=3.2673e+02 type=plane -->
+<!--  face id  : FACE=  25 DESIGNER_FACE=   25   area=2.6704e+01 type=cylinder -->
+<!--  face id  : FACE=  26 DESIGNER_FACE=   26   area=3.4047e+02 type=plane -->
+<!--  face id  : FACE=  27 DESIGNER_FACE=   27   area=8.5451e+02 type=cylinder -->
+<!--  face id  : FACE=  28 DESIGNER_FACE=   28   area=3.2673e+02 type=plane -->
+<!--  face id  : FACE=  29 DESIGNER_FACE=   29   area=2.6704e+01 type=cylinder -->
+<!--  face id  : FACE=  30 DESIGNER_FACE=   30   area=3.4047e+02 type=plane -->
+<!-- part id   : LUMP=   4 DESIGNER_BODY=    4 volume=1.1433e+03 -->
+<!--  face id  : FACE=  31 DESIGNER_FACE=   31   area=3.6254e+01 type=plane -->
+<!--  face id  : FACE=  32 DESIGNER_FACE=   32   area=3.6254e+01 type=plane -->
+<!--  face id  : FACE=  33 DESIGNER_FACE=   33   area=3.8283e+01 type=plane -->
+<!--  face id  : FACE=  34 DESIGNER_FACE=   34   area=8.8481e+02 type=cylinder -->
+<!--  face id  : FACE=  35 DESIGNER_FACE=   35   area=9.9870e+02 type=cylinder -->
+<!--  face id  : FACE=  36 DESIGNER_FACE=   36   area=3.8283e+01 type=plane -->
+<!-- AutoHeahlingProcess CreateCacheKeyTime = 2.000000e-03 -->
+<!-- Using of cache file OFF.(AutoHeahlingProcess) -->
+<!-- AutoHeahlingProcess Time = 2.700000e-02 -->
+<!-- AutoHeahlingProcess CacheWritingTime = 0.000000e+00 -->
+<!-- EntityCheckAndHealing2Process CreateCacheKeyTime = 2.000000e-03 -->
+<!-- Using of cache file OFF.(EntityCheckAndHealing2Process) -->
+<!-- original_heal(1)(lump_id=4) -->
+<!-- original_heal(2)(lump_id=3) -->
+<!-- original_heal(3)(lump_id=1) -->
+<!-- original_heal(4)(lump_id=2) -->
+<!-- EntityCheckAndHealing2Process Time = 2.500000e-02 -->
+<!-- EntityCheckAndHealing2Process CacheWritingTime = 0.000000e+00 -->
+<!-- CreateContactInfo_ResolveFriction_SplitFaceProcess CreateCacheKeyTime = 2.000000e-03 -->
+<!-- Using of cache file OFF.(CreateContactInfo_ResolveFriction_SplitFaceProcess) -->
+<!-- number of pairs: 6 -->
+<!-- strict noncontact: 5(83) -->
+<!-- fast check record: 0(0) -->
+<!-- MG1checking confliction -->
+<!-- MG2checking confliction -->
+<!-- CreateContactInfo_ResolveFriction_SplitFaceProcess Time = 1.370000e-01 -->
+<!-- CreateContactInfo_ResolveFriction_SplitFaceProcess CacheWritingTime = 0.000000e+00 -->
+<!-- ContactFaceCheckerProcess CreateCacheKeyTime = 1.000000e-03 -->
+<!-- Using of cache file OFF.(ContactFaceCheckerProcess) -->
+<!-- contact face pairs: 1 -->
+<!-- ContactFaceCheckerProcess Time = 3.000000e-03 -->
+<!-- ContactFaceCheckerProcess CacheWritingTime = 0.000000e+00 -->
+<!-- ImprintProcess CreateCacheKeyTime = 3.000000e-03 -->
+<!-- Using of cache file OFF.(ImprintProcess) -->
+<!-- Contact process is method1. -->
+<!-- MG1splitting contact face -->
+<!-- MG2splitting contact face -->
+<!-- pairs to be imprinted: 1 -->
+<!-- api_imprint(         2,         1) -->
+<!-- ImprintProcess Time = 8.000000e-03 -->
+<!-- ImprintProcess CacheWritingTime = 0.000000e+00 -->
+<!-- MG2healing... -->
+<!-- MG1creating solid database -->
+<!-- MG2creating solid database -->
+<!-- MG1making surface mesh -->
+<!-- MG2making nodes -->
+<!-- SeedingOnEdge -->
+<!-- MG2making surface meshes -->
+<!-- face id=   31(    1) successful mesh generation. -->
+<!-- face id=   32(    2) successful mesh generation. -->
+<!-- face id=   35(    3) successful mesh generation. -->
+<!-- face id=   25(   11) successful mesh generation. -->
+<!-- face id=   24(   15) successful mesh generation. -->
+<!-- face id=   23(   22) successful mesh generation. -->
+<!-- face id=   12(   30) successful mesh generation. -->
+<!-- face id=   10(   40) successful mesh generation. -->
+<!-- intersectionface_list=0 -->
+<!-- imprint_failure_face_list=0 -->
+<!-- Lump(1) is closed. -->
+<!-- Lump(2) is closed. -->
+<!-- Lump(3) is closed. -->
+<!-- Lump(4) is closed. -->
+<!-- MG1adding jlog to jcf -->
+
+	Finish Time: Fri Nov 08 19:13:47.384 2024
+
+          
+                   
+<!-- 
+	MGdriver (2023.11b)
+
+	Copyright (c) since 1983
+	JSOL Corporation.
+	All rights reserved.
+
+	Fri Nov 08 19:13:48.084 2024
+
+	Compiled time : Nov 10 2023 20:32:35
+ -->
+<!-- gIsForceVariationAdaptive:0 -->
+<!-- gAcceptForceVariation:0.000000 -->
+<!-- PB1 100 -->
+<!-- cmd /c ""C:/Program Files/JMAG-Designer23.0\mg3dnv.exe" 0 0 0 0 0 0 0 1" -->
+
+	Finish Time: Fri Nov 08 19:13:48.116 2024
+
+          
+                   
+<!-- 
+	mg3d (Oct 21 2023)
+
+	Copyright (c) since 1983
+	JSOL Corporation.
+	All rights reserved.
+
+	Fri Nov 08 19:13:48.158 2024
+
+	compiled time : Oct 21 2023 19:45:42
+ -->
+<!-- MAIN : START -->
+<!-- MG1Reading data... -->
+<!-- SOLID_MESHING -->
+<!-- MG2Reading data -->
+<!-- NINS -->
+<!-- The number of cores on this PC : 6 -->
+<!-- Hyper-Threading is enabled on this PC -->
+<!-- The number of logical cores on this PC : 12 -->
+<!-- The number of using cores : 6 -->
+<!-- Groups[52, 80, 38, 1] -->
+<!--     (Nodes, Elements) = (1810, 3658) -->
+<!-- PB2 10 -->
+<!-- InputData -->
+<!-- MG1Setting data... -->
+<!-- PB2 5 -->
+<!-- ConstructGeometry -->
+<!-- MG1Creating volume mesh... -->
+<!-- MG2Creating mesh: -->
+<!-- MG2Creating mesh phase 1 -->
+<!-- PB2 7 -->
+<!-- MG2Creating mesh:Iteration count 1 -->
+<!-- MG2Creating mesh:Iteration count 2 -->
+<!-- MG2Creating mesh:Iteration count 3 -->
+<!-- MG2Creating mesh:Iteration count 4 -->
+<!-- MG2Creating mesh:Iteration count 5 -->
+<!-- MG2Creating mesh:Iteration count 6 -->
+<!-- MG2Creating mesh:Iteration count 7 -->
+<!-- MG2Creating mesh:Iteration count 8 -->
+<!-- MG2Creating mesh:Iteration count 9 -->
+<!-- MG2Creating mesh:Iteration count 10 -->
+<!-- MG2Creating mesh:Iteration count 11 -->
+<!-- MG2Creating mesh:Iteration count 12 -->
+<!-- MG2Creating mesh:Iteration count 13 -->
+<!-- MG2Creating mesh:Iteration count 14 -->
+<!-- MG2Creating mesh:Iteration count 15 -->
+<!-- MG2Creating mesh:Iteration count 16 -->
+<!-- MG2Creating mesh:Iteration count 17 -->
+<!-- MG2Creating mesh:Iteration count 18 -->
+<!-- MG2Creating mesh:Iteration count 19 -->
+<!-- MG2Creating mesh:Iteration count 20 -->
+<!-- MG2Creating mesh:Iteration count 21 -->
+<!-- MG2Creating mesh:Iteration count 22 -->
+<!-- MG2Creating mesh:Iteration count 23 -->
+<!-- MG2Creating mesh:Iteration count 24 -->
+<!-- MG2Creating mesh:Iteration count 25 -->
+<!-- MG2Creating mesh:Iteration count 26 -->
+<!-- MG2Creating mesh:Iteration count 27 -->
+<!-- MG2Creating mesh:Iteration count 28 -->
+<!-- MG2Creating mesh:Iteration count 29 -->
+<!-- MG2Creating mesh:Iteration count 30 -->
+<!-- MG2Creating mesh phase 2 -->
+<!-- MG2Creating mesh:Iteration count 1 -->
+<!-- PB2 14 -->
+<!-- PB2 3 -->
+<!-- PB2 3 -->
+<!-- PB2 14 -->
+<!-- MG2Creating mesh phase 3 -->
+<!-- # of nodes before refinement: 7992 -->
+<!-- # of tetrahedra before refinement: 43866 -->
+<!-- MG2Creating mesh:Number of elements 50000 -->
+<!-- # of nodes after refinement: 9796 -->
+<!-- # of tetrahedra after refinement: 55200 -->
+<!-- PB2 14 -->
+<!-- MG2Improving mesh: -->
+<!-- MG2Improving mesh:Iteration count 1 -->
+<!-- MG2Improving mesh:Iteration count 2 -->
+<!-- MG2Improving mesh:Iteration count 3 -->
+<!-- MG2Improving mesh:Iteration count 4 -->
+<!-- cavity replacement method = 2 -->
+<!-- MG2Improving mesh:Iteration count 5 -->
+<!-- MG2Improving mesh:Iteration count 6 -->
+<!-- MG2Improving mesh:Iteration count 7 -->
+<!-- MG2Improving mesh:Iteration count 8 -->
+<!-- MG2Improving mesh:Iteration count 9 -->
+<!-- 0 low quality tetras are left. -->
+<!-- lowest quality =     2.4083946958e-02 -->
+<!-- PB2 14 -->
+<!-- CreateMesh -->
+<!-- MG1Writing data... -->
+<!-- MG2Writing data -->
+<!--     (Nodes, Elements) = (  9796,  52131) -->
+<!-- PB2 15 -->
+<!-- OutputData -->
+<!-- call of orient3d() -->
+<!--   all: 2863652 -->
+<!--   adp: 107423 -->
+<!--   ext: 0 -->
+<!-- call of insphere() -->
+<!--   all: 691847 -->
+<!--   adp: 575 -->
+<!--   ext: 33 -->
+<!-- MAIN : FINISH -->
+
+	Finish Time: Fri Nov 08 19:13:49.081 2024
+
+          
+                   
+<!-- 
+	MGdriver (2023.11b)
+
+	Copyright (c) since 1983
+	JSOL Corporation.
+	All rights reserved.
+
+	Fri Nov 08 19:13:49.089 2024
+
+	Mesh Generater Driver(1)
+ -->
+
+	Finish Time: Fri Nov 08 19:13:49.089 2024
+
+</logfile>

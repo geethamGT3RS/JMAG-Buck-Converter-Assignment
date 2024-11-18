@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jproj>
+  <title><![CDATA[Buck_Converter]]></title>
+  <model id="4">
+    <path><![CDATA[210020050_0~4]]></path>
+    <title><![CDATA[210020050_0]]></title>
+    <study id="4">
+      <path><![CDATA[210020050_0~4/Static~4]]></path>
+      <title><![CDATA[Static]]></title>
+      <description><![CDATA[]]></description>
+      <solver_id>0</solver_id>
+      <pre_solver_id>0</pre_solver_id>
+      <num_cores>1</num_cores>
+      <num_threads>1</num_threads>
+      <multi_cpu_type>0</multi_cpu_type>
+        <case>Case1</case>
+    </study>
+    <study id="5">
+      <path><![CDATA[210020050_0~4/Transient_2~5]]></path>
+      <title><![CDATA[Transient 2]]></title>
+      <description><![CDATA[]]></description>
+      <solver_id>2</solver_id>
+      <pre_solver_id>2</pre_solver_id>
+      <num_cores>1</num_cores>
+      <num_threads>1</num_threads>
+      <multi_cpu_type>0</multi_cpu_type>
+        <case>Case1</case>
+    </study>
+  </model>
+</jproj>

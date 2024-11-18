@@ -1,0 +1,82 @@
+*************************************
+  JMAG : Magnetic Analysis Solver
+  version = 23.0.4m_S
+  copyright(C) JSOL Corporation.
+*************************************
+Start Calculation : Fri Nov 08 19:20:49.458 2024
+ SOLVER is ICCG
+ Newton Raphson Iteration
+ FEM analysis
+ A method
+ Use JMAG_Fast_Setup
+residual non linear relaxation
+[mkcrts] ------ Current Control -----------          1
+acceleration factor = 1.050E+00
+[iccg_r] itr,eps =        62 6.009E-17
+[Resource Information] machine=GTMSI:1
+======================================================
+ Step =          1, 0.00000e+00 [sec]
+ -------- non linear --------------         1
+ NonLinear:alpha 1.0000000000000000
+[gi_abs] Gi=      1.268429336675e+02
+[gi_abs] Gi=      1.268429336675e+02
+acceleration factor = 1.100E+00
+[iccg_r] itr,eps =       176 6.965E-17
+[iccg_mpp] minimum itr, eps :iter:        176     6.96479e-17
+[solver time      ] time:    5.03336e-01 sec,  iter:        176
+[solver time total] time:    5.03336e-01 sec,  iter:        176  iter_step:        176
+[answer] da/a,de/e,dp/p,dn/n= 1.000E+00 1.000E+00 0.000E+00 0.000E+00
+suma, sumda, sume, sumde = 2.860E-08 2.860E-08 2.860E-08 2.860E-08
+sump, sumdp, sumn, sumdn = 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+[answer] dBmax,sum(dB)/sum(B)= 4.725E-01 1.000E+00
+ -------- non linear --------------         2
+[avec_set_r] alph_itr          1
+[avec_set_r] alph_itr          2
+[avec_set_r] alph_itr          3
+[avec_set_r] alph_itr          4
+ NonLinear:alpha 0.6781711496874825
+[gi_abs] Gi=      4.082373614419e+01
+[gi_abs] Gi=      6.283695397878e+03
+acceleration factor = 1.100E+00
+[iccg_r] itr,eps =       145 8.129E-17
+[iccg_mpp] minimum itr, eps :iter:        145     8.12914e-17
+[solver time      ] time:    3.92943e-01 sec,  iter:        145
+[solver time total] time:    8.96280e-01 sec,  iter:        321  iter_step:        321
+[answer] da/a,de/e,dp/p,dn/n= 3.218E-01 3.218E-01 0.000E+00 0.000E+00
+suma, sumda, sume, sumde = 2.854E-08 2.956E-09 2.854E-08 2.956E-09
+sump, sumdp, sumn, sumdn = 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+[answer] dBmax,sum(dB)/sum(B)= 1.336E-01 2.642E-02
+ -------- non linear --------------         3
+[avec_set_r] alph_itr          1
+[avec_set_r] alph_itr          2
+ NonLinear:alpha 0.9999566347573627
+[gi_abs] Gi=      2.375038282209e-01
+[gi_abs] Gi=      8.942238463615e+03
+acceleration factor = 1.100E+00
+[iccg_r] itr,eps =        95 9.148E-17
+[iccg_mpp] minimum itr, eps :iter:         95     9.14825e-17
+[solver time      ] time:    2.76962e-01 sec,  iter:         95
+[solver time total] time:    1.17324e+00 sec,  iter:        416  iter_step:        416
+[answer] da/a,de/e,dp/p,dn/n= 2.883E-03 2.883E-03 0.000E+00 0.000E+00
+suma, sumda, sume, sumde = 2.845E-08 2.364E-13 2.845E-08 2.364E-13
+sump, sumdp, sumn, sumdn = 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+[answer] dBmax,sum(dB)/sum(B)= 9.100E-03 4.844E-03
+ -------- non linear --------------         4
+[avec_set_r] alph_itr          1
+[avec_set_r] alph_itr          2
+ NonLinear:alpha 1.0037740095522840
+[gi_abs] Gi=      6.175101488126e-03
+[gi_abs] Gi=      8.932083232294e+03
+acceleration factor = 1.100E+00
+[iccg_r] itr,eps =        48 9.133E-17
+[iccg_mpp] minimum itr, eps :iter:         48     9.13259e-17
+[solver time      ] time:    1.57200e-01 sec,  iter:         48
+[solver time total] time:    1.33044e+00 sec,  iter:        464  iter_step:        464
+[answer] da/a,de/e,dp/p,dn/n= 6.390E-05 6.390E-05 0.000E+00 0.000E+00
+suma, sumda, sume, sumde = 2.845E-08 1.162E-16 2.845E-08 1.162E-16
+sump, sumdp, sumn, sumdn = 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+[answer] dBmax,sum(dB)/sum(B)= 7.389E-04 6.446E-05
+[answer] C O N V E R G E D !!!(non linear)
+[prntxt] Maximum Memory= 123.204 Mbyte
+End Calculation : Fri Nov 08 19:20:51.437 2024
+Calculation Time : 2.000  [sec]
